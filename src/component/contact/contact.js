@@ -10,7 +10,7 @@ const Contact = function() {
     const formRef = useRef()
     const [ done, setDone ] = useState(false)
     const theme = useContext(ToggleContext)
-    const { darkMode, dispatch } = theme
+    const { darkMode} = theme
 
 
     const handleSubmit= function(e) {
